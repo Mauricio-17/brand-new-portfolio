@@ -1,0 +1,42 @@
+.section {
+    margin: 2rem auto;
+}
+
+.section h3{
+    font-size: 4rem;
+    text-align: center;
+    margin: 3rem 0;
+    font-family: var(--font-title-g);
+}
+
+.section span{
+  color: var(--color-primary);
+}
+
+.content{
+    padding: 0 1rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.content h4{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.content p{
+    max-width: 580px;
+}
+
+.link {
+    color: rgb(52, 145, 9);
+}
+
+@media (min-width:580px) {
+    .content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .section{
+        margin: 5rem auto;
+    }
+}

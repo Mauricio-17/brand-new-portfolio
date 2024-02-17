@@ -1,0 +1,34 @@
+.content{
+    padding: 1rem;
+    max-width: 128rem;
+    margin: 1rem auto;
+}
+@media (min-width:580px) {
+    .content{
+        margin: 4rem auto;
+    }
+}
+
+.content h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: var(--font-title-g);
+}
+
+.content span{
+    color: var(--color-primary);
+}
+
+.grid_pro{
+    display: grid;
+    margin: 2rem auto;
+    grid-template-columns:1fr;
+    gap: 2rem;
+}
+
+@media (min-width:780px) {
+    .grid_pro{
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+}
