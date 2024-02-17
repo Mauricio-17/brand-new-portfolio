@@ -7,7 +7,7 @@ const HomeS = () => {
             <h1>Mauricio <span>Solis</span></h1>
             <p>Desarrollador web y analista de datos</p>
             <div className="home_present_b">
-              <a className="b_download" href="#">Descargar CV</a>
+              <a className="b_download" href="https://drive.google.com/file/d/17zUI1VnpY4v5H3_fAZfDB3Xgstd0YMt9/view?usp=sharing" target="_blank_">Descargar CV</a>
               <a className="b_contact" href="#contacto">Contactar</a>
             </div>
           </div>
